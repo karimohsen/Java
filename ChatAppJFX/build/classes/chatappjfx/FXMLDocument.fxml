@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="298.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatappjfx.FXMLDocumentController">
+   <children>
+      <Button fx:id="but" layoutX="330.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="112.0" prefWidth="110.0" text="Send" />
+      <TextField fx:id="txf1" layoutY="-1.0" prefHeight="188.0" prefWidth="440.0" />
+      <TextField fx:id="txf2" layoutY="187.0" prefHeight="112.0" prefWidth="330.0" />
+   </children>
+</AnchorPane>

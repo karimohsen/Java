@@ -1,0 +1,9 @@
+.root{
+          -fx-background-color: linear-gradient(black, white,black);
+          
+}
+
+#text{
+    -fx-font-family: 'Helvetica';
+          -fx-font-size : 35;
+}
